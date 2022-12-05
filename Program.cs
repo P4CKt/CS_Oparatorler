@@ -1,8 +1,7 @@
 ﻿using System;
 
 namespace odev_2
-{
-    internal class Program
+{    internal class Program
     {
         static void Main(string[] args)
         {
@@ -31,6 +30,7 @@ namespace odev_2
 
             if(isSuccess && !isCompleted)
             Console.WriteLine("Final!");
+            Console.ReadLine();
         }
     }
 }

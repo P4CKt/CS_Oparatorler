@@ -9,6 +9,17 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
+            "program": "${workspaceFolder}/bin/Debug/<target-framework>/<project-name.dll>",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
             "program": "${workspaceFolder}/bin/Debug/net6.0/odev_2.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
