@@ -30,7 +30,8 @@ namespace odev_2
 
             if(isSuccess && !isCompleted)
             Console.WriteLine("Final!");
-            Console.ReadLine();
+
+            Console.Read();
         }
     }
 }
