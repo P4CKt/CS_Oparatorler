@@ -18,7 +18,19 @@ namespace odev_2
             Console.WriteLine(y);
             x*=2; //x=x*2
             Console.WriteLine(x);
+            // Mantıksal Operatörler
+            //||,&&,!
+            bool isSuccess = true;
+            Boolean isCompleted = false;
 
+            if(isSuccess && isCompleted)
+            Console.WriteLine("Perfect!");
+
+            if(isSuccess || isCompleted)
+            Console.WriteLine("Perfect!");
+
+            if(isSuccess && !isCompleted)
+            Console.WriteLine("Final!");
         }
     }
 }
